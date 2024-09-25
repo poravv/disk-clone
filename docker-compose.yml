@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  clonador:
+    build: .
+    container_name: clonador
+    volumes:
+      - /dev:/dev # Para acceder a los dispositivos del host
+    privileged: true # Necesario para permitir el uso de dd
+    #restart: on-failure
