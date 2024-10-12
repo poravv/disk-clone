@@ -118,6 +118,11 @@ Asegúrate de identificar correctamente estos discos antes de proceder con el cl
 
 # Ejecutar manualmente 
 
+Detener todos los contenedores
+```
+docker stop $(docker ps -q)
+```
+
 ```
 node clonador.js --manual
 ```
