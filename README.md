@@ -115,3 +115,9 @@ sudo fdisk -l
 - El disco de destino (HDD) será algo como /dev/sdb.
 
 Asegúrate de identificar correctamente estos discos antes de proceder con el clonado.
+
+# Ejecutar manualmente 
+
+```
+node clonador.js --manual
+```
